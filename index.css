@@ -1,0 +1,47 @@
+.gatsby-remark-hunspell-container {
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    padding: 16px;
+    border-radius: 3px;
+    margin: 8px;
+}
+
+.gatsby-remark-hunspell-original {
+    text-decoration: line-through;
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(238, 68, 95);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.gatsby-remark-hunspell-original::after {
+    color: rgb(109, 117, 141);
+    content: '→';
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.gatsby-remark-hunspell-correction {
+    background: #4caf50;;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    padding: 3px 6px;
+    text-align: left;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.gatsby-remark-hunspell-correction-none {
+    background: #2196f3;;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    padding: 3px 6px;
+    text-align: left;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.gatsby-remark-hunspell-item {
+    line-height: 2;
+}

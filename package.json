@@ -1,16 +1,48 @@
 {
-  "name": "gatsby-starter-plugin",
-  "version": "1.0.0",
-  "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"No build script setup\""
+  "name": "gatsby-remark-spellcheck",
+  "description": "Gatsby wrapper for Hunspell spelling checker",
+  "author": "Lenvin Gonsalves <lenvingonsalves@gmail.com>",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/98lenvi/gatsby-remark-hunspell"
   },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "lodash": "^4.17.20",
+    "mdast-util-to-string": "^1.1.0",
+    "nodehun": "^3.0.2",
+    "unist-util-parents": "^1.0.3",
+    "unist-util-visit": "^1.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "babel-preset-gatsby-package": "^0.7.0-next.0",
+    "cross-env": "^7.0.2",
+    "gatsby-plugin-utils": "^0.4.0-next.0"
+  },
+  "homepage": "https://github.com/98lenvi/gatsby-remark-hunspell",
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "remark",
+    "hunspell",
+    "spelling",
+    "spell check"
   ],
-  "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
-  "license": "0BSD"
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/98lenvi/gatsby-remark-hunspell.git",
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
 }
